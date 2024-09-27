@@ -49,6 +49,7 @@ body {
 	max-height: 100vh;
 	height: 100vh;
 	overflow-y: scroll;
+	overflow-x: hidden;
 	background-color: #6589C5;
 }
 
