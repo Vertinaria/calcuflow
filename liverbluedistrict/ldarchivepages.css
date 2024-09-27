@@ -1,0 +1,85 @@
+body {
+	background-color: #a5e0da;
+	font-family: helvetica;
+	font-size: 1em;
+	color: #6589C5;
+}
+
+.gallerybox {
+	width: 85%;
+	height: 100vh;
+	position: fixed;
+	top: 0%;
+	left: 7%;
+	background-color: white;
+	border: 3px solid rgb(101, 137, 197);
+	border-radius: 3px;
+}
+
+.gallerycontent {
+	text-align: center;
+	padding: 5vw 7vw;
+	max-height: 100vh;
+	height: auto;
+	overflow-y: scroll;
+}
+
+.gallerycontent img {
+	border-radius: 3px;
+	width: 70vw;
+	margin-bottom: -0.6vh;
+}
+
+.gallerycontent img:hover {
+	opacity: 75%;
+	transition: ease-in-out 0.3s;
+}
+
+.imgbg {
+	background-color: #6589C5;
+	width: 70vw;
+	border-radius: 3px;
+}
+
+.backbutton a {
+	text-align: left;
+	color: white;
+	background-color: #6589C5;
+	width: 3.5vw;
+	padding: 0.5vw;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+.backbutton a:hover {
+	color: #FFF5A6;
+	zoom: 110%;
+	transition: ease-in-out 0.2s;
+}
+
+.backbutton a.inactive {
+	opacity: 50%;
+	color: white;
+	zoom: 100%;
+}
+
+.gallerycharicon {
+	display: inline-block;
+	border-radius: 3px;
+	background-color: #6589C5;
+	max-width: 5vw;
+	width: 5vw;
+	max-height: 5vw;
+	height: 5vw;
+}
+
+.gallerycharicon img {
+	width: 5vw;
+	height: 5vw;
+	margin: 0vw;
+	border-radius: 3px;
+}
+
+.gallerybottomspace {
+	height: 8vw;
+}
