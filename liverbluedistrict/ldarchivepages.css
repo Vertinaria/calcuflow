@@ -81,5 +81,7 @@ body {
 }
 
 .gallerybottomspace {
-	height: 20vh;
+	position: relative;
+	bottom: 0;
+	height: 10vw;
 }
