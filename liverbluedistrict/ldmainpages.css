@@ -234,5 +234,7 @@ body {
 }
 
 .bottomspace {
-	height: 10vh;
+	position: relative;
+	bottom: 0;
+	height: 5vw;
 }
