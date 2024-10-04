@@ -12,7 +12,7 @@ body {
 
 .navbar {
 	width: 800px;
-	height: 75px;
+	height: auto;
 	margin: auto;
 	background-color: #163817;
 	display: block;
