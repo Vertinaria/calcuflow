@@ -10,10 +10,47 @@ body::-webkit-scrollbar {
 
 p {
 	color: black;
+	margin: 15px 50px;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	color: #8484FF;
+	transition: ease-in-out 0.2s;
+}
+
+a.active {
+	color: black;
+}
+
+a.active:hover {
+	color: black;
+	font-size: 24px;
+	transition: none;
+	cursor: default;
+}
+
+img {
+	border-radius: 5px;
 }
 
 .logo {
 	width: 300px;
+}
+
+.navbar {
+	margin: 25px;
+}
+
+.navbar a {
+	font-size: 24px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .periodictable {
@@ -87,12 +124,13 @@ p {
 }
 
 .portraitandinfos p {
+	margin: 15px 0px;
 	padding-right: 40px;
 	padding-left: 40px;
 	text-size-adjust: none;
 }
 
-.title {
+p.title {
 	font-size: 20px;
 	margin-top: -15px;
 }
@@ -129,4 +167,15 @@ span {
 	color: grey;
 	transform: scale(1.2);
 	transition: ease-in-out 0.2s;
+}
+
+.footer {
+	width: 425px;
+	margin: auto;
+}
+
+.footer p {
+	color: white;
+	background-color: grey;
+	border-radius: 5px;
 }
