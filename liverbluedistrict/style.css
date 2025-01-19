@@ -11,6 +11,7 @@ body::-webkit-scrollbar {
 p {
 	color: black;
 	margin: 15px 50px;
+	text-size-adjust: none;
 }
 
 a {
