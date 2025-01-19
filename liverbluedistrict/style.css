@@ -4,6 +4,10 @@ body {
 	font-family: courier;
 }
 
+body::-webkit-scrollbar {
+	display: none;
+}
+
 p {
 	color: black;
 }
@@ -72,6 +76,10 @@ p {
 	display: flex;
 	max-height: 500px;
 	overflow-y: scroll;
+}
+
+.portraitandinfos::-webkit-scrollbar {
+	display: none;
 }
 
 .portraitandinfos div {
