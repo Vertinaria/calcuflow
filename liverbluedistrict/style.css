@@ -152,6 +152,12 @@ span {
 	color: black;
 }
 
+img.flag {
+	width: 30px;
+	margin-top: -30px;
+	margin-bottom: -10px;
+}
+
 .bottomspace {
 	height: 20px;
 }
