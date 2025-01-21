@@ -166,6 +166,12 @@ const close_Cs = document.getElementById('close_Cs')
 const Ba_popup = document.getElementById('Ba_popup')
 const Ba = document.getElementById('Ba')
 const close_Ba = document.getElementById('close_Ba')
+const La_popup = document.getElementById('La_popup')
+const La = document.getElementById('La')
+const close_La = document.getElementById('close_La')
+const Ce_popup = document.getElementById('Ce_popup')
+const Ce = document.getElementById('Ce')
+const close_Ce = document.getElementById('close_Ce')
 
 H.addEventListener('click', () => {
 	H_popup.style.display = 'flex';
@@ -502,4 +508,16 @@ Ba.addEventListener('click', () => {
 });
 close_Ba.addEventListener('click', () => {
 	Ba_popup.style.display = 'none';
+});
+La.addEventListener('click', () => {
+	La_popup.style.display = 'flex';
+});
+close_La.addEventListener('click', () => {
+	La_popup.style.display = 'none';
+});
+Ce.addEventListener('click', () => {
+	Ce_popup.style.display = 'flex';
+});
+close_Ce.addEventListener('click', () => {
+	Ce_popup.style.display = 'none';
 });
