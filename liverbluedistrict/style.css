@@ -110,6 +110,40 @@ img {
 	padding-top: 25px;
 }
 
+.prev {
+	color: white;
+	font-size: 75px;
+	margin: 25px;
+	cursor: pointer;
+}
+
+.prev:hover {
+	transform: scale(1.2);
+	transition: ease-in-out 0.2s;
+	color: lightblue;
+}
+
+.previnactive {
+	color: white;
+	font-size: 75px;
+	margin: 25px;
+	cursor: default;
+	opacity: 50%;
+}
+
+.next {
+	color: white;
+	font-size: 75px;
+	margin: 25px;
+	cursor: pointer;
+}
+
+.next:hover {
+	transform: scale(1.2);
+	transition: ease-in-out 0.2s;
+	color: lightblue;
+}
+
 .portraitandinfos {
 	display: flex;
 	max-height: 500px;
