@@ -221,3 +221,19 @@ img.flag {
 	background-color: grey;
 	border-radius: 5px;
 }
+
+@media (max-width: 1080px) {
+
+	.prev {
+		margin: 10px;
+	}
+
+	.previnactive {
+		margin: 10px;
+	}
+
+	.next {
+		margin: 10px;
+	}
+
+}
