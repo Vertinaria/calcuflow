@@ -177,6 +177,21 @@ p.title {
 	border-radius: 5px;
 }
 
+@media (max-width: 768px) {
+
+	.basicinfo {
+	width: 330px;
+	text-align: left;
+	border: 1px solid black;
+	border-radius: 5px;
+	}
+
+	.basicinfo p {
+		padding: 0px 25px;
+	}
+
+}
+
 span {
 	display: inline-block;
 }
