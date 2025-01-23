@@ -222,7 +222,7 @@ img.flag {
 	border-radius: 5px;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 768px) {
 
 	.prev {
 		margin: 10px;
