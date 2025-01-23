@@ -113,7 +113,7 @@ img {
 .prev {
 	color: white;
 	font-size: 75px;
-	margin: 25px;
+	margin: 15px;
 	cursor: pointer;
 }
 
@@ -126,7 +126,7 @@ img {
 .previnactive {
 	color: white;
 	font-size: 75px;
-	margin: 25px;
+	margin: 15px;
 	cursor: default;
 	opacity: 50%;
 }
@@ -134,7 +134,7 @@ img {
 .next {
 	color: white;
 	font-size: 75px;
-	margin: 25px;
+	margin: 15px;
 	cursor: pointer;
 }
 
@@ -220,20 +220,4 @@ img.flag {
 	color: white;
 	background-color: grey;
 	border-radius: 5px;
-}
-
-@media (max-width: 768px) {
-
-	.prev {
-		margin: 10px;
-	}
-
-	.previnactive {
-		margin: 10px;
-	}
-
-	.next {
-		margin: 10px;
-	}
-
 }
