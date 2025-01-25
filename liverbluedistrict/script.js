@@ -882,3 +882,69 @@ next_Ga.addEventListener('click', () => {
 	Zn_popup.style.display = 'none';
 	Ga_popup.style.display = 'flex';
 });
+
+const prev_Zn = document.getElementById('prev_Zn')
+const next_Ge = document.getElementById('next_Ge')
+prev_Zn.addEventListener('click', () => {
+	Ga_popup.style.display = 'none';
+	Zn_popup.style.display = 'flex';
+});
+next_Ge.addEventListener('click', () => {
+	Ga_popup.style.display = 'none';
+	Ge_popup.style.display = 'flex';
+});
+
+const prev_Ga = document.getElementById('prev_Ga')
+const next_As = document.getElementById('next_As')
+prev_Ga.addEventListener('click', () => {
+	Ge_popup.style.display = 'none';
+	Ga_popup.style.display = 'flex';
+});
+next_As.addEventListener('click', () => {
+	Ge_popup.style.display = 'none';
+	As_popup.style.display = 'flex';
+});
+
+const prev_Ge = document.getElementById('prev_Ge')
+const next_Se = document.getElementById('next_Se')
+prev_Ge.addEventListener('click', () => {
+	As_popup.style.display = 'none';
+	Ge_popup.style.display = 'flex';
+});
+next_Se.addEventListener('click', () => {
+	As_popup.style.display = 'none';
+	Se_popup.style.display = 'flex';
+});
+
+const prev_As = document.getElementById('prev_As')
+const next_Br = document.getElementById('next_Br')
+prev_As.addEventListener('click', () => {
+	Se_popup.style.display = 'none';
+	As_popup.style.display = 'flex';
+});
+next_Br.addEventListener('click', () => {
+	Se_popup.style.display = 'none';
+	Br_popup.style.display = 'flex';
+});
+
+const prev_Se = document.getElementById('prev_Se')
+const next_Kr = document.getElementById('next_Kr')
+prev_Se.addEventListener('click', () => {
+	Br_popup.style.display = 'none';
+	Se_popup.style.display = 'flex';
+});
+next_Kr.addEventListener('click', () => {
+	Br_popup.style.display = 'none';
+	Kr_popup.style.display = 'flex';
+});
+
+const prev_Br = document.getElementById('prev_Br')
+const next_Rb = document.getElementById('next_Rb')
+prev_Br.addEventListener('click', () => {
+	Kr_popup.style.display = 'none';
+	Br_popup.style.display = 'flex';
+});
+next_Rb.addEventListener('click', () => {
+	Kr_popup.style.display = 'none';
+	Rb_popup.style.display = 'flex';
+});
