@@ -184,6 +184,9 @@ const close_Pm = document.getElementById('close_Pm')
 const Sm_popup = document.getElementById('Sm_popup')
 const Sm = document.getElementById('Sm')
 const close_Sm = document.getElementById('close_Sm')
+const Eu_popup = document.getElementById('Eu_popup')
+const Eu = document.getElementById('Eu')
+const close_Eu = document.getElementById('close_Eu')
 
 H.addEventListener('click', () => {
 	H_popup.style.display = 'flex';
@@ -556,6 +559,12 @@ Sm.addEventListener('click', () => {
 });
 close_Sm.addEventListener('click', () => {
 	Sm_popup.style.display = 'none';
+});
+Eu.addEventListener('click', () => {
+	Eu_popup.style.display = 'flex';
+});
+close_Eu.addEventListener('click', () => {
+	Eu_popup.style.display = 'none';
 });
 
 const next_He = document.getElementById('next_He')
