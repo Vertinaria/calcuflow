@@ -178,15 +178,22 @@ const close_Pr = document.getElementById('close_Pr')
 const Nd_popup = document.getElementById('Nd_popup')
 const Nd = document.getElementById('Nd')
 const close_Nd = document.getElementById('close_Nd')
+
 const Pm_popup = document.getElementById('Pm_popup')
 const Pm = document.getElementById('Pm')
 const close_Pm = document.getElementById('close_Pm')
+
 const Sm_popup = document.getElementById('Sm_popup')
 const Sm = document.getElementById('Sm')
 const close_Sm = document.getElementById('close_Sm')
+
 const Eu_popup = document.getElementById('Eu_popup')
 const Eu = document.getElementById('Eu')
 const close_Eu = document.getElementById('close_Eu')
+
+const Gd_popup = document.getElementById('Gd_popup')
+const Gd = document.getElementById('Gd')
+const close_Gd = document.getElementById('close_Gd')
 
 H.addEventListener('click', () => {
 	H_popup.style.display = 'flex';
@@ -565,6 +572,13 @@ Eu.addEventListener('click', () => {
 });
 close_Eu.addEventListener('click', () => {
 	Eu_popup.style.display = 'none';
+});
+
+Gd.addEventListener('click', () => {
+	Gd_popup.style.display = 'flex';
+});
+close_Gd.addEventListener('click', () => {
+	Gd_popup.style.display = 'none';
 });
 
 const next_He = document.getElementById('next_He')
@@ -956,4 +970,37 @@ prev_Br.addEventListener('click', () => {
 next_Rb.addEventListener('click', () => {
 	Kr_popup.style.display = 'none';
 	Rb_popup.style.display = 'flex';
+});
+
+const prev_Kr = document.getElementById('prev_Kr')
+const next_Sr = document.getElementById('next_Sr')
+prev_Kr.addEventListener('click', () => {
+	Rb_popup.style.display = 'none';
+	Kr_popup.style.display = 'flex';
+});
+next_Sr.addEventListener('click', () => {
+	Rb_popup.style.display = 'none';
+	Sr_popup.style.display = 'flex';
+});
+
+const prev_Rb = document.getElementById('prev_Rb')
+const next_Y = document.getElementById('next_Y')
+prev_Rb.addEventListener('click', () => {
+	Sr_popup.style.display = 'none';
+	Rb_popup.style.display = 'flex';
+});
+next_Y.addEventListener('click', () => {
+	Sr_popup.style.display = 'none';
+	Y_popup.style.display = 'flex';
+});
+
+const prev_Sr = document.getElementById('prev_Sr')
+const next_Zr = document.getElementById('next_Zr')
+prev_Sr.addEventListener('click', () => {
+	Y_popup.style.display = 'none';
+	Sr_popup.style.display = 'flex';
+});
+next_Zr.addEventListener('click', () => {
+	Y_popup.style.display = 'none';
+	Zr_popup.style.display = 'flex';
 });
