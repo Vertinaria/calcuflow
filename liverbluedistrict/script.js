@@ -41,6 +41,13 @@ const Li_popup = document.getElementById('Li_popup')
 const Li = document.getElementById('Li')
 const close_Li = document.getElementById('close_Li')
 
+Li.addEventListener('click', () => {
+	Li_popup.style.display = 'flex';
+});
+close_Li.addEventListener('click', () => {
+	Li_popup.style.display = 'none';
+});
+
 const Be_popup = document.getElementById('Be_popup')
 const Be = document.getElementById('Be')
 const close_Be = document.getElementById('close_Be')
@@ -279,45 +286,166 @@ const Pd_popup = document.getElementById('Pd_popup')
 const Pd = document.getElementById('Pd')
 const close_Pd = document.getElementById('close_Pd')
 
+const prev_Rh = document.getElementById('prev_Rh')
+const next_Ag = document.getElementById('next_Ag')
+prev_Rh.addEventListener('click', () => {
+	Pd_popup.style.display = 'none';
+	Rh_popup.style.display = 'flex';
+});
+next_Ag.addEventListener('click', () => {
+	Pd_popup.style.display = 'none';
+	Ag_popup.style.display = 'flex';
+});
+
 const Ag_popup = document.getElementById('Ag_popup')
 const Ag = document.getElementById('Ag')
 const close_Ag = document.getElementById('close_Ag')
+
+const prev_Pd = document.getElementById('prev_Pd')
+const next_Cd = document.getElementById('next_Cd')
+prev_Pd.addEventListener('click', () => {
+	Ag_popup.style.display = 'none';
+	Pd_popup.style.display = 'flex';
+});
+next_Cd.addEventListener('click', () => {
+	Ag_popup.style.display = 'none';
+	Cd_popup.style.display = 'flex';
+});
 
 const Cd_popup = document.getElementById('Cd_popup')
 const Cd = document.getElementById('Cd')
 const close_Cd = document.getElementById('close_Cd')
 
+const prev_Ag = document.getElementById('prev_Ag')
+const next_In = document.getElementById('next_In')
+prev_Ag.addEventListener('click', () => {
+	Cd_popup.style.display = 'none';
+	Ag_popup.style.display = 'flex';
+});
+next_In.addEventListener('click', () => {
+	Cd_popup.style.display = 'none';
+	In_popup.style.display = 'flex';
+});
+
 const In_popup = document.getElementById('In_popup')
 const In = document.getElementById('In')
 const close_In = document.getElementById('close_In')
+
+const prev_Cd = document.getElementById('prev_Cd')
+const next_Sn = document.getElementById('next_Sn')
+prev_Cd.addEventListener('click', () => {
+	In_popup.style.display = 'none';
+	Cd_popup.style.display = 'flex';
+});
+next_Sn.addEventListener('click', () => {
+	In_popup.style.display = 'none';
+	Sn_popup.style.display = 'flex';
+});
 
 const Sn_popup = document.getElementById('Sn_popup')
 const Sn = document.getElementById('Sn')
 const close_Sn = document.getElementById('close_Sn')
 
+const prev_In = document.getElementById('prev_In')
+const next_Sb = document.getElementById('next_Sb')
+prev_In.addEventListener('click', () => {
+	Sn_popup.style.display = 'none';
+	In_popup.style.display = 'flex';
+});
+next_Sb.addEventListener('click', () => {
+	Sn_popup.style.display = 'none';
+	Sb_popup.style.display = 'flex';
+});
+
 const Sb_popup = document.getElementById('Sb_popup')
 const Sb = document.getElementById('Sb')
 const close_Sb = document.getElementById('close_Sb')
+
+const prev_Sn = document.getElementById('prev_Sn')
+const next_Te = document.getElementById('next_Te')
+prev_Sn.addEventListener('click', () => {
+	Sb_popup.style.display = 'none';
+	Sn_popup.style.display = 'flex';
+});
+next_Te.addEventListener('click', () => {
+	Sb_popup.style.display = 'none';
+	Te_popup.style.display = 'flex';
+});
 
 const Te_popup = document.getElementById('Te_popup')
 const Te = document.getElementById('Te')
 const close_Te = document.getElementById('close_Te')
 
+const prev_Sb = document.getElementById('prev_Sb')
+const next_I = document.getElementById('next_I')
+prev_Sb.addEventListener('click', () => {
+	Te_popup.style.display = 'none';
+	Sb_popup.style.display = 'flex';
+});
+next_I.addEventListener('click', () => {
+	Te_popup.style.display = 'none';
+	I_popup.style.display = 'flex';
+});
+
 const I_popup = document.getElementById('I_popup')
 const I = document.getElementById('I')
 const close_I = document.getElementById('close_I')
+
+const prev_Te = document.getElementById('prev_Te')
+const next_Xe = document.getElementById('next_Xe')
+prev_Te.addEventListener('click', () => {
+	I_popup.style.display = 'none';
+	Te_popup.style.display = 'flex';
+});
+next_Xe.addEventListener('click', () => {
+	I_popup.style.display = 'none';
+	Xe_popup.style.display = 'flex';
+});
 
 const Xe_popup = document.getElementById('Xe_popup')
 const Xe = document.getElementById('Xe')
 const close_Xe = document.getElementById('close_Xe')
 
+const prev_I = document.getElementById('prev_I')
+const next_Cs = document.getElementById('next_Cs')
+prev_I.addEventListener('click', () => {
+	Xe_popup.style.display = 'none';
+	I_popup.style.display = 'flex';
+});
+next_Cs.addEventListener('click', () => {
+	Xe_popup.style.display = 'none';
+	Cs_popup.style.display = 'flex';
+});
+
 const Cs_popup = document.getElementById('Cs_popup')
 const Cs = document.getElementById('Cs')
 const close_Cs = document.getElementById('close_Cs')
 
+const prev_Xe = document.getElementById('prev_Xe')
+const next_Ba = document.getElementById('next_Ba')
+prev_Xe.addEventListener('click', () => {
+	Cs_popup.style.display = 'none';
+	Xe_popup.style.display = 'flex';
+});
+next_Ba.addEventListener('click', () => {
+	Cs_popup.style.display = 'none';
+	Ba_popup.style.display = 'flex';
+});
+
 const Ba_popup = document.getElementById('Ba_popup')
 const Ba = document.getElementById('Ba')
 const close_Ba = document.getElementById('close_Ba')
+
+const prev_Cs = document.getElementById('prev_Cs')
+const next_La = document.getElementById('next_La')
+prev_Cs.addEventListener('click', () => {
+	Ba_popup.style.display = 'none';
+	Cs_popup.style.display = 'flex';
+});
+next_La.addEventListener('click', () => {
+	Ba_popup.style.display = 'none';
+	La_popup.style.display = 'flex';
+});
 
 const La_popup = document.getElementById('La_popup')
 const La = document.getElementById('La')
@@ -373,12 +501,6 @@ close_Dy.addEventListener('click', () => {
 	Dy_popup.style.display = 'none';
 });
 
-Li.addEventListener('click', () => {
-	Li_popup.style.display = 'flex';
-});
-close_Li.addEventListener('click', () => {
-	Li_popup.style.display = 'none';
-});
 Be.addEventListener('click', () => {
 	Be_popup.style.display = 'flex';
 });
