@@ -1041,7 +1041,6 @@ close_Rn.addEventListener('click', () => {
 });
 
 const prev_At = document.getElementById('prev_At')
-const next_Fr = document.getElementById('next_Fr')
 prev_At.addEventListener('click', () => {
 	Rn_popup.style.display = 'none';
 	At_popup.style.display = 'flex';
