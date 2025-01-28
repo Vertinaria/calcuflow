@@ -650,6 +650,402 @@ prev_Ho.addEventListener('click', () => {
 	Er_popup.style.display = 'none';
 	Ho_popup.style.display = 'flex';
 });
+next_Tm.addEventListener('click', () => {
+	Er_popup.style.display = 'none';
+	Tm_popup.style.display = 'flex';
+});
+
+const Tm_popup = document.getElementById('Tm_popup')
+const Tm = document.getElementById('Tm')
+const close_Tm = document.getElementById('close_Tm')
+
+Tm.addEventListener('click', () => {
+	Tm_popup.style.display = 'flex';
+});
+close_Tm.addEventListener('click', () => {
+	Tm_popup.style.display = 'none';
+});
+
+const prev_Er = document.getElementById('prev_Er')
+const next_Yb = document.getElementById('next_Yb')
+prev_Er.addEventListener('click', () => {
+	Tm_popup.style.display = 'none';
+	Er_popup.style.display = 'flex';
+});
+next_Yb.addEventListener('click', () => {
+	Tm_popup.style.display = 'none';
+	Yb_popup.style.display = 'flex';
+});
+
+const Yb_popup = document.getElementById('Yb_popup')
+const Yb = document.getElementById('Yb')
+const close_Yb = document.getElementById('close_Yb')
+
+Yb.addEventListener('click', () => {
+	Yb_popup.style.display = 'flex';
+});
+close_Yb.addEventListener('click', () => {
+	Yb_popup.style.display = 'none';
+});
+
+const prev_Tm = document.getElementById('prev_Tm')
+const next_Lu = document.getElementById('next_Lu')
+prev_Tm.addEventListener('click', () => {
+	Yb_popup.style.display = 'none';
+	Tm_popup.style.display = 'flex';
+});
+next_Lu.addEventListener('click', () => {
+	Yb_popup.style.display = 'none';
+	Lu_popup.style.display = 'flex';
+});
+
+const Lu_popup = document.getElementById('Lu_popup')
+const Lu = document.getElementById('Lu')
+const close_Lu = document.getElementById('close_Lu')
+
+Lu.addEventListener('click', () => {
+	Lu_popup.style.display = 'flex';
+});
+close_Lu.addEventListener('click', () => {
+	Lu_popup.style.display = 'none';
+});
+
+const prev_Yb = document.getElementById('prev_Yb')
+const next_Hf = document.getElementById('next_Hf')
+prev_Yb.addEventListener('click', () => {
+	Lu_popup.style.display = 'none';
+	Yb_popup.style.display = 'flex';
+});
+next_Hf.addEventListener('click', () => {
+	Lu_popup.style.display = 'none';
+	Hf_popup.style.display = 'flex';
+});
+
+const Hf_popup = document.getElementById('Hf_popup')
+const Hf = document.getElementById('Hf')
+const close_Hf = document.getElementById('close_Hf')
+
+Hf.addEventListener('click', () => {
+	Hf_popup.style.display = 'flex';
+});
+close_Hf.addEventListener('click', () => {
+	Hf_popup.style.display = 'none';
+});
+
+const prev_Lu = document.getElementById('prev_Lu')
+const next_Ta = document.getElementById('next_Ta')
+prev_Lu.addEventListener('click', () => {
+	Hf_popup.style.display = 'none';
+	Lu_popup.style.display = 'flex';
+});
+next_Ta.addEventListener('click', () => {
+	Hf_popup.style.display = 'none';
+	Ta_popup.style.display = 'flex';
+});
+
+const Ta_popup = document.getElementById('Ta_popup')
+const Ta = document.getElementById('Ta')
+const close_Ta = document.getElementById('close_Ta')
+
+Ta.addEventListener('click', () => {
+	Ta_popup.style.display = 'flex';
+});
+close_Ta.addEventListener('click', () => {
+	Ta_popup.style.display = 'none';
+});
+
+const prev_Hf = document.getElementById('prev_Hf')
+const next_W = document.getElementById('next_W')
+prev_Hf.addEventListener('click', () => {
+	Ta_popup.style.display = 'none';
+	Hf_popup.style.display = 'flex';
+});
+next_W.addEventListener('click', () => {
+	Ta_popup.style.display = 'none';
+	W_popup.style.display = 'flex';
+});
+
+const W_popup = document.getElementById('W_popup')
+const W = document.getElementById('W')
+const close_W = document.getElementById('close_W')
+
+W.addEventListener('click', () => {
+	W_popup.style.display = 'flex';
+});
+close_W.addEventListener('click', () => {
+	W_popup.style.display = 'none';
+});
+
+const prev_Ta = document.getElementById('prev_Ta')
+const next_Re = document.getElementById('next_Re')
+prev_Ta.addEventListener('click', () => {
+	W_popup.style.display = 'none';
+	Ta_popup.style.display = 'flex';
+});
+next_Re.addEventListener('click', () => {
+	W_popup.style.display = 'none';
+	Re_popup.style.display = 'flex';
+});
+
+const Re_popup = document.getElementById('Re_popup')
+const Re = document.getElementById('Re')
+const close_Re = document.getElementById('close_Re')
+
+Re.addEventListener('click', () => {
+	Re_popup.style.display = 'flex';
+});
+close_Re.addEventListener('click', () => {
+	Re_popup.style.display = 'none';
+});
+
+const prev_W = document.getElementById('prev_W')
+const next_Os = document.getElementById('next_Os')
+prev_W.addEventListener('click', () => {
+	Re_popup.style.display = 'none';
+	W_popup.style.display = 'flex';
+});
+next_Os.addEventListener('click', () => {
+	Re_popup.style.display = 'none';
+	Os_popup.style.display = 'flex';
+});
+
+const Os_popup = document.getElementById('Os_popup')
+const Os = document.getElementById('Os')
+const close_Os = document.getElementById('close_Os')
+
+Os.addEventListener('click', () => {
+	Os_popup.style.display = 'flex';
+});
+close_Os.addEventListener('click', () => {
+	Os_popup.style.display = 'none';
+});
+
+const prev_Re = document.getElementById('prev_Re')
+const next_Ir = document.getElementById('next_Ir')
+prev_Re.addEventListener('click', () => {
+	Os_popup.style.display = 'none';
+	Re_popup.style.display = 'flex';
+});
+next_Ir.addEventListener('click', () => {
+	Os_popup.style.display = 'none';
+	Ir_popup.style.display = 'flex';
+});
+
+const Ir_popup = document.getElementById('Ir_popup')
+const Ir = document.getElementById('Ir')
+const close_Ir = document.getElementById('close_Ir')
+
+Ir.addEventListener('click', () => {
+	Ir_popup.style.display = 'flex';
+});
+close_Ir.addEventListener('click', () => {
+	Ir_popup.style.display = 'none';
+});
+
+const prev_Os = document.getElementById('prev_Os')
+const next_Pt = document.getElementById('next_Pt')
+prev_Os.addEventListener('click', () => {
+	Ir_popup.style.display = 'none';
+	Os_popup.style.display = 'flex';
+});
+next_Pt.addEventListener('click', () => {
+	Ir_popup.style.display = 'none';
+	Pt_popup.style.display = 'flex';
+});
+
+const Pt_popup = document.getElementById('Pt_popup')
+const Pt = document.getElementById('Pt')
+const close_Pt = document.getElementById('close_Pt')
+
+Pt.addEventListener('click', () => {
+	Pt_popup.style.display = 'flex';
+});
+close_Pt.addEventListener('click', () => {
+	Pt_popup.style.display = 'none';
+});
+
+const prev_Ir = document.getElementById('prev_Ir')
+const next_Au = document.getElementById('next_Au')
+prev_Ir.addEventListener('click', () => {
+	Pt_popup.style.display = 'none';
+	Ir_popup.style.display = 'flex';
+});
+next_Au.addEventListener('click', () => {
+	Pt_popup.style.display = 'none';
+	Au_popup.style.display = 'flex';
+});
+
+const Au_popup = document.getElementById('Au_popup')
+const Au = document.getElementById('Au')
+const close_Au = document.getElementById('close_Au')
+
+Au.addEventListener('click', () => {
+	Au_popup.style.display = 'flex';
+});
+close_Au.addEventListener('click', () => {
+	Au_popup.style.display = 'none';
+});
+
+const prev_Pt = document.getElementById('prev_Pt')
+const next_Hg = document.getElementById('next_Hg')
+prev_Pt.addEventListener('click', () => {
+	Au_popup.style.display = 'none';
+	Pt_popup.style.display = 'flex';
+});
+next_Hg.addEventListener('click', () => {
+	Au_popup.style.display = 'none';
+	Hg_popup.style.display = 'flex';
+});
+
+const Hg_popup = document.getElementById('Hg_popup')
+const Hg = document.getElementById('Hg')
+const close_Hg = document.getElementById('close_Hg')
+
+Hg.addEventListener('click', () => {
+	Hg_popup.style.display = 'flex';
+});
+close_Hg.addEventListener('click', () => {
+	Hg_popup.style.display = 'none';
+});
+
+const prev_Au = document.getElementById('prev_Au')
+const next_Tl = document.getElementById('next_Tl')
+prev_Au.addEventListener('click', () => {
+	Hg_popup.style.display = 'none';
+	Au_popup.style.display = 'flex';
+});
+next_Tl.addEventListener('click', () => {
+	Hg_popup.style.display = 'none';
+	Tl_popup.style.display = 'flex';
+});
+
+const Tl_popup = document.getElementById('Tl_popup')
+const Tl = document.getElementById('Tl')
+const close_Tl = document.getElementById('close_Tl')
+
+Tl.addEventListener('click', () => {
+	Tl_popup.style.display = 'flex';
+});
+close_Tl.addEventListener('click', () => {
+	Tl_popup.style.display = 'none';
+});
+
+const prev_Hg = document.getElementById('prev_Hg')
+const next_Pb = document.getElementById('next_Pb')
+prev_Hg.addEventListener('click', () => {
+	Tl_popup.style.display = 'none';
+	Hg_popup.style.display = 'flex';
+});
+next_Pb.addEventListener('click', () => {
+	Tl_popup.style.display = 'none';
+	Pb_popup.style.display = 'flex';
+});
+
+const Pb_popup = document.getElementById('Pb_popup')
+const Pb = document.getElementById('Pb')
+const close_Pb = document.getElementById('close_Pb')
+
+Pb.addEventListener('click', () => {
+	Pb_popup.style.display = 'flex';
+});
+close_Pb.addEventListener('click', () => {
+	Pb_popup.style.display = 'none';
+});
+
+const prev_Tl = document.getElementById('prev_Tl')
+const next_Bi = document.getElementById('next_Bi')
+prev_Tl.addEventListener('click', () => {
+	Pb_popup.style.display = 'none';
+	Tl_popup.style.display = 'flex';
+});
+next_Bi.addEventListener('click', () => {
+	Pb_popup.style.display = 'none';
+	Bi_popup.style.display = 'flex';
+});
+
+const Bi_popup = document.getElementById('Bi_popup')
+const Bi = document.getElementById('Bi')
+const close_Bi = document.getElementById('close_Bi')
+
+Bi.addEventListener('click', () => {
+	Bi_popup.style.display = 'flex';
+});
+close_Bi.addEventListener('click', () => {
+	Bi_popup.style.display = 'none';
+});
+
+const prev_Pb = document.getElementById('prev_Pb')
+const next_Po = document.getElementById('next_Po')
+prev_Pb.addEventListener('click', () => {
+	Bi_popup.style.display = 'none';
+	Pb_popup.style.display = 'flex';
+});
+next_Po.addEventListener('click', () => {
+	Bi_popup.style.display = 'none';
+	Po_popup.style.display = 'flex';
+});
+
+const Po_popup = document.getElementById('Po_popup')
+const Po = document.getElementById('Po')
+const close_Po = document.getElementById('close_Po')
+
+Po.addEventListener('click', () => {
+	Po_popup.style.display = 'flex';
+});
+close_Po.addEventListener('click', () => {
+	Po_popup.style.display = 'none';
+});
+
+const prev_Bi = document.getElementById('prev_Bi')
+const next_At = document.getElementById('next_At')
+prev_Bi.addEventListener('click', () => {
+	Po_popup.style.display = 'none';
+	Bi_popup.style.display = 'flex';
+});
+next_At.addEventListener('click', () => {
+	Po_popup.style.display = 'none';
+	At_popup.style.display = 'flex';
+});
+
+const At_popup = document.getElementById('At_popup')
+const At = document.getElementById('At')
+const close_At = document.getElementById('close_At')
+
+At.addEventListener('click', () => {
+	At_popup.style.display = 'flex';
+});
+close_At.addEventListener('click', () => {
+	At_popup.style.display = 'none';
+});
+
+const prev_Po = document.getElementById('prev_Po')
+const next_Rn = document.getElementById('next_Rn')
+prev_Po.addEventListener('click', () => {
+	At_popup.style.display = 'none';
+	Po_popup.style.display = 'flex';
+});
+next_Rn.addEventListener('click', () => {
+	At_popup.style.display = 'none';
+	Rn_popup.style.display = 'flex';
+});
+
+const Rn_popup = document.getElementById('Rn_popup')
+const Rn = document.getElementById('Rn')
+const close_Rn = document.getElementById('close_Rn')
+
+Rn.addEventListener('click', () => {
+	Rn_popup.style.display = 'flex';
+});
+close_Rn.addEventListener('click', () => {
+	Rn_popup.style.display = 'none';
+});
+
+const prev_At = document.getElementById('prev_At')
+const next_Fr = document.getElementById('next_Fr')
+prev_At.addEventListener('click', () => {
+	Rn_popup.style.display = 'none';
+	At_popup.style.display = 'flex';
+});
 
 Be.addEventListener('click', () => {
 	Be_popup.style.display = 'flex';
