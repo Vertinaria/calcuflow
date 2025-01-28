@@ -144,6 +144,14 @@ img {
 	color: lightblue;
 }
 
+.nextinactive {
+	color: white;
+	font-size: 75px;
+	margin: 15px;
+	cursor: default;
+	opacity: 50%;
+}
+
 .portraitandinfos {
 	display: flex;
 	max-height: 500px;
