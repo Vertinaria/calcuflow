@@ -451,33 +451,121 @@ const La_popup = document.getElementById('La_popup')
 const La = document.getElementById('La')
 const close_La = document.getElementById('close_La')
 
+const prev_Ba = document.getElementById('prev_Ba')
+const next_Ce = document.getElementById('next_Ce')
+prev_Ba.addEventListener('click', () => {
+	La_popup.style.display = 'none';
+	Ba_popup.style.display = 'flex';
+});
+next_Ce.addEventListener('click', () => {
+	La_popup.style.display = 'none';
+	Ce_popup.style.display = 'flex';
+});
+
 const Ce_popup = document.getElementById('Ce_popup')
 const Ce = document.getElementById('Ce')
 const close_Ce = document.getElementById('close_Ce')
+
+const prev_La = document.getElementById('prev_La')
+const next_Pr = document.getElementById('next_Pr')
+prev_La.addEventListener('click', () => {
+	Ce_popup.style.display = 'none';
+	La_popup.style.display = 'flex';
+});
+next_Pr.addEventListener('click', () => {
+	Ce_popup.style.display = 'none';
+	Pr_popup.style.display = 'flex';
+});
 
 const Pr_popup = document.getElementById('Pr_popup')
 const Pr = document.getElementById('Pr')
 const close_Pr = document.getElementById('close_Pr')
 
+const prev_Ce = document.getElementById('prev_Ce')
+const next_Nd = document.getElementById('next_Nd')
+prev_Ce.addEventListener('click', () => {
+	Pr_popup.style.display = 'none';
+	Ce_popup.style.display = 'flex';
+});
+next_Nd.addEventListener('click', () => {
+	Pr_popup.style.display = 'none';
+	Nd_popup.style.display = 'flex';
+});
+
 const Nd_popup = document.getElementById('Nd_popup')
 const Nd = document.getElementById('Nd')
 const close_Nd = document.getElementById('close_Nd')
+
+const prev_Pr = document.getElementById('prev_Pr')
+const next_Pm = document.getElementById('next_Pm')
+prev_Pr.addEventListener('click', () => {
+	Nd_popup.style.display = 'none';
+	Pr_popup.style.display = 'flex';
+});
+next_Pm.addEventListener('click', () => {
+	Nd_popup.style.display = 'none';
+	Pm_popup.style.display = 'flex';
+});
 
 const Pm_popup = document.getElementById('Pm_popup')
 const Pm = document.getElementById('Pm')
 const close_Pm = document.getElementById('close_Pm')
 
+const prev_Nd = document.getElementById('prev_Nd')
+const next_Sm = document.getElementById('next_Sm')
+prev_Nd.addEventListener('click', () => {
+	Pm_popup.style.display = 'none';
+	Nd_popup.style.display = 'flex';
+});
+next_Sm.addEventListener('click', () => {
+	Pm_popup.style.display = 'none';
+	Sm_popup.style.display = 'flex';
+});
+
 const Sm_popup = document.getElementById('Sm_popup')
 const Sm = document.getElementById('Sm')
 const close_Sm = document.getElementById('close_Sm')
+
+const prev_Pm = document.getElementById('prev_Pm')
+const next_Eu = document.getElementById('next_Eu')
+prev_Pm.addEventListener('click', () => {
+	Sm_popup.style.display = 'none';
+	Pm_popup.style.display = 'flex';
+});
+next_Eu.addEventListener('click', () => {
+	Sm_popup.style.display = 'none';
+	Eu_popup.style.display = 'flex';
+});
 
 const Eu_popup = document.getElementById('Eu_popup')
 const Eu = document.getElementById('Eu')
 const close_Eu = document.getElementById('close_Eu')
 
+const prev_Sm = document.getElementById('prev_Sm')
+const next_Gd = document.getElementById('next_Gd')
+prev_Sm.addEventListener('click', () => {
+	Eu_popup.style.display = 'none';
+	Sm_popup.style.display = 'flex';
+});
+next_Gd.addEventListener('click', () => {
+	Eu_popup.style.display = 'none';
+	Gd_popup.style.display = 'flex';
+});
+
 const Gd_popup = document.getElementById('Gd_popup')
 const Gd = document.getElementById('Gd')
 const close_Gd = document.getElementById('close_Gd')
+
+const prev_Eu = document.getElementById('prev_Eu')
+const next_Tb = document.getElementById('next_Tb')
+prev_Eu.addEventListener('click', () => {
+	Gd_popup.style.display = 'none';
+	Eu_popup.style.display = 'flex';
+});
+next_Tb.addEventListener('click', () => {
+	Gd_popup.style.display = 'none';
+	Tb_popup.style.display = 'flex';
+});
 
 const Tb_popup = document.getElementById('Tb_popup')
 const Tb = document.getElementById('Tb')
@@ -490,6 +578,17 @@ close_Tb.addEventListener('click', () => {
 	Tb_popup.style.display = 'none';
 });
 
+const prev_Gd = document.getElementById('prev_Gd')
+const next_Dy = document.getElementById('next_Dy')
+prev_Gd.addEventListener('click', () => {
+	Tb_popup.style.display = 'none';
+	Gd_popup.style.display = 'flex';
+});
+next_Dy.addEventListener('click', () => {
+	Tb_popup.style.display = 'none';
+	Dy_popup.style.display = 'flex';
+});
+
 const Dy_popup = document.getElementById('Dy_popup')
 const Dy = document.getElementById('Dy')
 const close_Dy = document.getElementById('close_Dy')
@@ -499,6 +598,57 @@ Dy.addEventListener('click', () => {
 });
 close_Dy.addEventListener('click', () => {
 	Dy_popup.style.display = 'none';
+});
+
+const prev_Tb = document.getElementById('prev_Tb')
+const next_Ho = document.getElementById('next_Ho')
+prev_Tb.addEventListener('click', () => {
+	Dy_popup.style.display = 'none';
+	Tb_popup.style.display = 'flex';
+});
+next_Ho.addEventListener('click', () => {
+	Dy_popup.style.display = 'none';
+	Ho_popup.style.display = 'flex';
+});
+
+const Ho_popup = document.getElementById('Ho_popup')
+const Ho = document.getElementById('Ho')
+const close_Ho = document.getElementById('close_Ho')
+
+Ho.addEventListener('click', () => {
+	Ho_popup.style.display = 'flex';
+});
+close_Ho.addEventListener('click', () => {
+	Ho_popup.style.display = 'none';
+});
+
+const prev_Dy = document.getElementById('prev_Dy')
+const next_Er = document.getElementById('next_Er')
+prev_Dy.addEventListener('click', () => {
+	Ho_popup.style.display = 'none';
+	Dy_popup.style.display = 'flex';
+});
+next_Er.addEventListener('click', () => {
+	Ho_popup.style.display = 'none';
+	Er_popup.style.display = 'flex';
+});
+
+const Er_popup = document.getElementById('Er_popup')
+const Er = document.getElementById('Er')
+const close_Er = document.getElementById('close_Er')
+
+Er.addEventListener('click', () => {
+	Er_popup.style.display = 'flex';
+});
+close_Er.addEventListener('click', () => {
+	Er_popup.style.display = 'none';
+});
+
+const prev_Ho = document.getElementById('prev_Ho')
+const next_Tm = document.getElementById('next_Tm')
+prev_Ho.addEventListener('click', () => {
+	Er_popup.style.display = 'none';
+	Ho_popup.style.display = 'flex';
 });
 
 Be.addEventListener('click', () => {
