@@ -1045,6 +1045,181 @@ prev_At.addEventListener('click', () => {
 	Rn_popup.style.display = 'none';
 	At_popup.style.display = 'flex';
 });
+next_Fr.addEventListener('click', () => {
+	Rn_popup.style.display = 'none';
+	Fr_popup.style.display = 'flex';
+});
+
+const Fr_popup = document.getElementById('Fr_popup')
+const Fr = document.getElementById('Fr')
+const close_Fr = document.getElementById('close_Fr')
+
+Fr.addEventListener('click', () => {
+	Fr_popup.style.display = 'flex';
+});
+close_Fr.addEventListener('click', () => {
+	Fr_popup.style.display = 'none';
+});
+
+const prev_Rn = document.getElementById('prev_Rn')
+const next_Ra = document.getElementById('next_Ra')
+prev_Rn.addEventListener('click', () => {
+	Fr_popup.style.display = 'none';
+	Rn_popup.style.display = 'flex';
+});
+next_Ra.addEventListener('click', () => {
+	Fr_popup.style.display = 'none';
+	Ra_popup.style.display = 'flex';
+});
+
+const Ra_popup = document.getElementById('Ra_popup')
+const Ra = document.getElementById('Ra')
+const close_Ra = document.getElementById('close_Ra')
+
+Ra.addEventListener('click', () => {
+	Ra_popup.style.display = 'flex';
+});
+close_Ra.addEventListener('click', () => {
+	Ra_popup.style.display = 'none';
+});
+
+const prev_Fr = document.getElementById('prev_Fr')
+const next_Ac = document.getElementById('next_Ac')
+prev_Fr.addEventListener('click', () => {
+	Ra_popup.style.display = 'none';
+	Fr_popup.style.display = 'flex';
+});
+next_Ac.addEventListener('click', () => {
+	Ra_popup.style.display = 'none';
+	Ac_popup.style.display = 'flex';
+});
+
+const Ac_popup = document.getElementById('Ac_popup')
+const Ac = document.getElementById('Ac')
+const close_Ac = document.getElementById('close_Ac')
+
+Ac.addEventListener('click', () => {
+	Ac_popup.style.display = 'flex';
+});
+close_Ac.addEventListener('click', () => {
+	Ac_popup.style.display = 'none';
+});
+
+const prev_Ra = document.getElementById('prev_Ra')
+const next_Th = document.getElementById('next_Th')
+prev_Ra.addEventListener('click', () => {
+	Ac_popup.style.display = 'none';
+	Ra_popup.style.display = 'flex';
+});
+next_Th.addEventListener('click', () => {
+	Ac_popup.style.display = 'none';
+	Th_popup.style.display = 'flex';
+});
+
+const Th_popup = document.getElementById('Th_popup')
+const Th = document.getElementById('Th')
+const close_Th = document.getElementById('close_Th')
+
+Th.addEventListener('click', () => {
+	Th_popup.style.display = 'flex';
+});
+close_Th.addEventListener('click', () => {
+	Th_popup.style.display = 'none';
+});
+
+const prev_Ac = document.getElementById('prev_Ac')
+const next_Pa = document.getElementById('next_Pa')
+prev_Ac.addEventListener('click', () => {
+	Th_popup.style.display = 'none';
+	Ac_popup.style.display = 'flex';
+});
+next_Pa.addEventListener('click', () => {
+	Th_popup.style.display = 'none';
+	Pa_popup.style.display = 'flex';
+});
+
+const Pa_popup = document.getElementById('Pa_popup')
+const Pa = document.getElementById('Pa')
+const close_Pa = document.getElementById('close_Pa')
+
+Pa.addEventListener('click', () => {
+	Pa_popup.style.display = 'flex';
+});
+close_Pa.addEventListener('click', () => {
+	Pa_popup.style.display = 'none';
+});
+
+const prev_Th = document.getElementById('prev_Th')
+const next_U = document.getElementById('next_U')
+prev_Th.addEventListener('click', () => {
+	Pa_popup.style.display = 'none';
+	Th_popup.style.display = 'flex';
+});
+next_U.addEventListener('click', () => {
+	Pa_popup.style.display = 'none';
+	U_popup.style.display = 'flex';
+});
+
+const U_popup = document.getElementById('U_popup')
+const U = document.getElementById('U')
+const close_U = document.getElementById('close_U')
+
+U.addEventListener('click', () => {
+	U_popup.style.display = 'flex';
+});
+close_U.addEventListener('click', () => {
+	U_popup.style.display = 'none';
+});
+
+const prev_Pa = document.getElementById('prev_Pa')
+const next_Np = document.getElementById('next_Np')
+prev_Pa.addEventListener('click', () => {
+	U_popup.style.display = 'none';
+	Pa_popup.style.display = 'flex';
+});
+next_Np.addEventListener('click', () => {
+	U_popup.style.display = 'none';
+	Np_popup.style.display = 'flex';
+});
+
+const Np_popup = document.getElementById('Np_popup')
+const Np = document.getElementById('Np')
+const close_Np = document.getElementById('close_Np')
+
+Np.addEventListener('click', () => {
+	Np_popup.style.display = 'flex';
+});
+close_Np.addEventListener('click', () => {
+	Np_popup.style.display = 'none';
+});
+
+const prev_U = document.getElementById('prev_U')
+const next_Pu = document.getElementById('next_Pu')
+prev_U.addEventListener('click', () => {
+	Np_popup.style.display = 'none';
+	U_popup.style.display = 'flex';
+});
+next_Pu.addEventListener('click', () => {
+	Np_popup.style.display = 'none';
+	Pu_popup.style.display = 'flex';
+});
+
+const Pu_popup = document.getElementById('Pu_popup')
+const Pu = document.getElementById('Pu')
+const close_Pu = document.getElementById('close_Pu')
+
+Pu.addEventListener('click', () => {
+	Pu_popup.style.display = 'flex';
+});
+close_Pu.addEventListener('click', () => {
+	Pu_popup.style.display = 'none';
+});
+
+const prev_Np = document.getElementById('prev_Np')
+prev_Np.addEventListener('click', () => {
+	Pu_popup.style.display = 'none';
+	Np_popup.style.display = 'flex';
+});
 
 Be.addEventListener('click', () => {
 	Be_popup.style.display = 'flex';
